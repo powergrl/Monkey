@@ -1,0 +1,12 @@
+<textarea id="inputrectangle" value="{{text}}"></textarea>
+<div id="rectangle" align="center">
+  <body style="color: white">
+    <label> Word Length:
+      <input type="number" value="{{wordLength}}" style="width: 50px">
+    </label>
+  </body>
+  <button name="random" (click)="onRandomClick()">Random</button>
+  <button name="singleLetter" (click)="onSingleClick()">Single Letter</button>
+  <button name="doubleLetter" (click)="onDoubleClick()">Double Letter</button>
+  <button name="tripleLetter" (click)="onTripleClick()">Triple Letter</button>
+</div>

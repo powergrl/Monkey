@@ -1,0 +1,29 @@
+/* The format for the input rectangle */
+#inputrectangle {
+  width: 600px;
+  height: 200px;
+  background: #ffffff;
+  left: 29%;
+  position: relative;
+  margin-left: 0px;
+  border: 3px double blue;
+  resize: none;
+  outline: none;
+}
+
+/* The format for the rectangle */
+#rectangle {
+  width: 604px;
+  height: 75px;
+  background: blue;
+  left: 29%;
+  position: relative;
+  border: 3px double blue;
+  top: -4px;
+  font-size: 12px;
+}
+
+button {
+  margin-left: 3px;
+  margin-right: 3px;
+}
