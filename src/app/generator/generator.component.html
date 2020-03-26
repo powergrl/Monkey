@@ -2,7 +2,7 @@
 <div id="rectangle" align="center">
   <body style="color: white">
     <label> Word Length:
-      <input type="number" value="{{wordLength}}" style="width: 50px">
+      <input type="number" [(ngModel)]="wordLength" style="width: 50px">
     </label>
   </body>
   <button name="random" (click)="onRandomClick()">Random</button>
